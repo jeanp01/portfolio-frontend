@@ -1,0 +1,28 @@
+.degrade{
+    background: black;
+    background: linear-gradient(90deg,rgb(0, 0, 0), rgb(239, 143, 8));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.dark .degrade{
+    background: black;
+    background: linear-gradient(90deg,rgb(239, 132, 9), rgb(0, 0, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.linea{
+    width: 1.5rem;
+    height: 0rem;
+    gap: .50rem;
+}
+.bars{
+    
+    background: rgb(0, 0, 0);
+    height: 4px;
+    width: 100%;
+    border-radius: 20px;
+    
+}

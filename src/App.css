@@ -1,0 +1,7 @@
+.svg{
+    fill:white
+}
+
+.dark .svg{
+    fill:black
+}
