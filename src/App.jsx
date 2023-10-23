@@ -12,16 +12,15 @@ import { useEffect, useState } from "react";
 function App() {
   const [Loading, setLoading] = useState(true);
 
-  const handlePageLoad = () => {
-    setLoading(false);
-  };
-
   useEffect(() => {
-    window.addEventListener("load", handlePageLoad);
+    const loadingTimeout = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
     return () => {
-      window.removeEventListener("load", handlePageLoad);
+      clearTimeout(loadingTimeout);
     };
   }, []);
+
   return (
     <main className="dark:bg-darkbg">
       {Loading ? (
