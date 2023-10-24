@@ -31,7 +31,7 @@ const ContactmMe = () => {
   return (
     <section
       id="ContactMe"
-      className="relative bg-white dark:bg-darkbg dark:text-light1 "
+      className="relative bg-white dark:bg-bgcontact dark:text-light1 "
     >
       <div className="lg:grid md:h-screen  lg:grid-cols-12">
         <motion.section

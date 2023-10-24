@@ -1,0 +1,7 @@
+.custom{
+    fill: #f7fafc; 
+    stroke: #f7fafc; 
+}
+.dark .custom {
+    fill: #333333; 
+    stroke: #333333; }

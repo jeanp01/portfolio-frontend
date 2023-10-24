@@ -19,7 +19,7 @@ const AboutMe = () => {
   return (
     <section
       id="AboutMe"
-      className=" md:h-screen grid    overflow-hidden bg-light2 dark:bg-darkbg dark:text-light2  sm:grid sm:grid-cols-2 sm:items-center"
+      className=" md:h-screen grid    overflow-hidden bg-light2 dark:bg-navcolor dark:text-light2  sm:grid sm:grid-cols-2 sm:items-center"
     >
       <motion.img
         initial={{ x: 700 }}

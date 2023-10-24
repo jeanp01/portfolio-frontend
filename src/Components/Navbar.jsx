@@ -40,11 +40,11 @@ const Navbar = () => {
       className=" h-auto mx-auto  fixed  z-50  shadow-lg top-0  w-full bg-light2  dark:bg-darkbg dark:text-light2 "
     >
       <div className=" flex flex-wrap items-center  justify-between  p-2 ">
-        <div className="w-8 h-10 ">
+        <div className="w-32 s:w-40 h-min ">
           <img
-            src="/images/letter-l-5569128_640.png"
+            src="/images/logo3.png"
             alt=""
-            className="imgL w-full h-full object-cover"
+            className=" imgL object-cover  "
           />
         </div>
 
